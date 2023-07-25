@@ -7,4 +7,5 @@ urlpatterns = [
     path("todos/<int:pk>", views.TodoEditList.as_view()),
     path("todos/<int:pk>/complete", views.TodoCompleteList.as_view()),
     path("todos/completed/", views.TodoCompletedList.as_view()),
+    path("login/", views.login),
 ]
